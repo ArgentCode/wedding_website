@@ -13,5 +13,19 @@
 }
 
 #title {
-  width: 99%;
+  font-weight: 100;
+
 }
+
+.backimg {
+  width:100%;
+  height:100%
+}
+
+#mytest {
+  text-align: center;
+}
+
+.box {
+  display: inline-block;
+} 
