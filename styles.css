@@ -29,3 +29,7 @@
 .box {
   display: inline-block;
 } 
+
+#mainArea {
+  background-color: #9CAF88;
+}
