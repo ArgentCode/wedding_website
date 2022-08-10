@@ -91,6 +91,21 @@ body {
   text-align: center;
 }
 
+@media screen and (max-device-width: 768px) {
+  .column.side {
+    width: 0% !important;
+  }
+  .column.middle {
+    width: 100% !important;
+    max-height: auto !important;
+    position: sticky;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    max-height:fit-content;
+  }
+}
+
 /* Style the footer */
 .footer {
   background-color: #f1f1f1;
